@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import data.Lists;
 import data.Maps;
 import data.SetVsArrayList;
+import data.Sets;
 import timer.MethodsTimer;
 
 class MethodsTimerTest {
@@ -21,6 +22,12 @@ class MethodsTimerTest {
 	@Test
 	void testListPerformance() throws Exception {
 		MethodsTimer tester = new MethodsTimer(Lists.class.getDeclaredMethods());
+		tester.report();
+	}
+	
+	@Test
+	void testSetPerformance() throws Exception {
+		MethodsTimer tester = new MethodsTimer(Sets.class.getDeclaredMethods());
 		tester.report();
 	}
 

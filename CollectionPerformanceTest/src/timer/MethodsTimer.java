@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class MethodsTimer {
-	private static final int MAXIMUM_SIZE = 1000;
+	private static final int MAXIMUM_SIZE = 100;
 	public static final long ONE_SECOND = 1000000000;
 	private final Method[] methods;
 	

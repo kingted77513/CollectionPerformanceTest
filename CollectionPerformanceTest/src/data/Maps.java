@@ -45,7 +45,7 @@ public class Maps {
 		}
 	}
 	
-	public void arrayListContains() {
+	public void hashMapContains() {
 		hashMapOperations.contains();
 	}
 	
@@ -57,7 +57,7 @@ public class Maps {
 		treeMapOperations.contains();
 	}
 	
-	public void arrayListModification() {
+	public void hashMapModification() {
 		hashMapOperations.modification();
 	}
 	
