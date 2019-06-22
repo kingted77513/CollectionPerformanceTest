@@ -24,8 +24,8 @@ public class SetVsArrayList {
 	}
 	
 	private class CollectionOperations {
-		Collection<String> collection;
-		String probe;
+		private Collection<String> collection;
+		private String probe;
 		
 		private CollectionOperations(Collection<String> collection
 				, String probe) {
